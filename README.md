@@ -12,7 +12,7 @@ b) Place **pluginsharing.py** into: **%localappdata%\GOG.com\Galaxy\plugins\inst
 
 c) Edit the **manifest.json** in that folder and replace **plugin.py** with **pluginsharing.py** in the last line
 
-d) Open steam client and add a nickname to each of your friends that are sharing games with you so that it ends with #
+d) Open steam client and add a nickname to each of your friends that are sharing games with you so that it ends with **#**
   example: Turn **Nick1234** into **Nick1234#** or something similar
   
 e) Open GOG Galaxy
