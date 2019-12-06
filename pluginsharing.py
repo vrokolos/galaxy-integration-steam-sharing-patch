@@ -65,7 +65,7 @@ class SteamSharingPlugin(SteamPlugin):
         try:
             steamFolder = get_configuration_folder()
             vdfFile = os.path.join(steamFolder, "userdata", self._miniprofile_id, "config", "localconfig.vdf")
-            logging.debug(f"Users Localconfig.vdf {vdfFile}")
+            logger.debug(f"Users Localconfig.vdf {vdfFile}")
             data = load_vdf(vdfFile)
             timedata = data["UserLocalConfigStore"]["Software"]["Valve"]["Steam"]["Apps"]
             for gameid in self._family_sharing_games:
