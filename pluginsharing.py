@@ -35,7 +35,8 @@ class SteamSharingPlugin(SteamPlugin):
 
     async def get_steam_sharing_games(self, owngames: List[str]) -> List[Game]:
         profiles = list(
-            filter(lambda x: "#*" in x.user_name, self._own_friends))
+            filter(lambda x: "#" in x.user_name, self._own_friends))
+        logger.info(profiles)
         newgames: List[Game] = []
         self._family_sharing_games = []
         for i in profiles:
