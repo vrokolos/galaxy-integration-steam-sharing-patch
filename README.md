@@ -1,3 +1,5 @@
+# THE OFFICIAL STEAM INTEGRATION IS CURRENTLY ADDING SUPPORT FOR FAMILY SHARING SO THIS PLUGIN IS NOW BROKEN
+
 # galaxy-integration-steam-sharing-patch
 Adds steam family sharing support to the Galaxy GOG 2 steam integration plugin
 
